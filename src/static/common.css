@@ -1,0 +1,140 @@
+@font-face {
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  font-family: "Inter";
+  src: url("/Inter-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  font-family: "Inter";
+  src: url("/Inter-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-family: "Inter";
+  src: url("/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  font-family: "Inter";
+  src: url("/Inter-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-family: "JetBrainsMono";
+  src: url("/JetBrainsMono-Regular.woff2") format("woff2");
+}
+
+body {
+  margin: 0;
+  min-width: 800px;
+  font-family: "Inter";
+}
+
+pre, code {
+  font-family: "JetBrainsMono" !important;
+}
+
+.container {
+  background: #f7f7f8;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 14px;
+}
+
+.content-header {
+  background: white;
+  height: 520px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.content-header-nav {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.content-header-nav nav {
+  width: 800px;
+  margin: auto;
+  font-size: 16px;
+  padding: .5em 0;
+}
+
+.content-header-loading {
+  padding-top: 120px;
+  width: 800px;
+  margin: auto;
+  height: 500px;
+}
+
+.content-header pre, .content-listview pre {
+  padding: 0.5em;
+  background: #27343b;
+  color: white;
+  margin-top: 1em;
+  border-radius: 4px;
+  font-family: "JetBrainsMono";
+}
+
+.content-header-content {
+  padding-top: 120px;
+  width: 800px;
+  margin: auto;
+  clear: both;
+  float: clear;
+}
+
+.content-header-tag {
+  margin-left: .5em;
+  font-size: 16px;
+  padding: 0.25em 0.75em;
+  cursor: pointer;
+}
+
+.layer-info-table {
+  margin-top: 1.5em;
+}
+
+.layer-info-table .ant-descriptions-item {
+  padding: 0 !important;
+}
+
+.layer-info-table .ant-descriptions-item-colon::after {
+  content: '' !important;
+}
+
+.layer-info-label {
+  text-transform: uppercase;
+  color: #94a1aa;
+}
+
+.content-listview {
+  min-height: 100vh;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.content-listview-loading {
+  padding-top: 5em;
+}
+
+.content-listview-header {
+  padding: 2.5em 0;
+}
+
+.content-listview-item {
+  margin: 1.25em 0;
+  width: 100%;
+}
